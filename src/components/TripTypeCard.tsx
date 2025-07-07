@@ -1,13 +1,12 @@
 import React from "react";
 import {
-  Box,
   Typography,
   Card,
   CardContent,
   CardMedia,
   Stack,
 } from "@mui/material";
-import { TripType } from "../data/TripTypes";
+import type { TripType } from "../data/TripTypes";
 
 interface Props {
   Trip: TripType;

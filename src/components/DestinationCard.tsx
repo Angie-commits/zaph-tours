@@ -6,7 +6,7 @@ import {
   Typography,
   Button,
 } from "@mui/material";
-import { Destination } from "../data/destinations";
+import type { Destination } from "../data/featuredDestinations";
 
 interface Props {
   destination: Destination;
@@ -26,11 +26,8 @@ const DestinationCard: React.FC<Props> = ({ destination }) => {
         <Typography variant="body2" gutterBottom>
           {destination.description}
         </Typography>
-        <Typography variant="subtitle2">
-          Group Price: {destination.groupPrice}
-        </Typography>
         <Typography variant="subtitle2" mb={1}>
-          Individual Price: {destination.individualPrice}
+          Individual Price: {destination.price}
         </Typography>
         <Button variant="outlined" size="small" href="#">
           Learn More

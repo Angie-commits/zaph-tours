@@ -11,7 +11,7 @@ const Testimonials: React.FC = () => {
         </Typography>
         <Grid container spacing={4}>
           {testimonials.map((t, index) => (
-            <Grid item xs={12} md={4} key={index}>
+            <Grid size={{xs: 12, sm:6, md:4}} key={index}>
               <Paper elevation={3} sx={{ p: 3 }}>
                 <Typography variant="body1" gutterBottom>
                   “{t.quote}”

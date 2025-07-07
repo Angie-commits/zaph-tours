@@ -4,7 +4,6 @@ import {
   Container,
   Typography,
   Grid,
-  Link,
   List,
   ListItem,
   ListItemText,
@@ -15,7 +14,6 @@ import {
   Email,
   Phone,
   LocationOn,
-  Facebook,
   Twitter,
   Instagram,
 } from "@mui/icons-material";
@@ -29,12 +27,12 @@ const ContactUs: React.FC = () => {
         </Typography>
 
         <Grid container spacing={4}>
-          <Grid item xs={12} md={6}>
+          <Grid size={{xs: 12, sm:6, md:4}}>
             <Typography variant="h6">Send us a message</Typography>
             <ContactForm />
           </Grid>
 
-          <Grid item xs={12} md={6}>
+          <Grid size={{xs: 12, sm:6, md:4}}>
             <Typography variant="h6" gutterBottom>
               Contact Information
             </Typography>
@@ -45,7 +43,7 @@ const ContactUs: React.FC = () => {
               </ListItem>
               <ListItem>
                 <Phone sx={{ mr: 1 }} />
-                <ListItemText primary="+254 712 345678" />
+                <ListItemText primary="0746098500" />
               </ListItem>
               <ListItem>
                 <LocationOn sx={{ mr: 1 }} />
@@ -67,9 +65,6 @@ const ContactUs: React.FC = () => {
             <Box mt={3}>
               <Typography variant="h6">Follow Us</Typography>
               <Box>
-                <IconButton href="#" aria-label="Facebook">
-                  <Facebook />
-                </IconButton>
                 <IconButton href="#" aria-label="Twitter">
                   <Twitter />
                 </IconButton>
@@ -80,7 +75,7 @@ const ContactUs: React.FC = () => {
             </Box>
           </Grid>
 
-          <Grid item xs={12}>
+          <Grid size={{xs: 12, sm:6, md:4}}>
             <Typography variant="h6" gutterBottom>
               Our Location
             </Typography>

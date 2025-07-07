@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
-import { Link as RouterLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
@@ -10,16 +10,16 @@ const Header: React.FC = () => {
           Zaph Tours
         </Typography>
         <Box>
-          <Button color="inherit" component={RouterLink} to="/">
+          <Button color="inherit" component={Link} to="/">
             Home
           </Button>
-          <Button color="inherit" component={RouterLink} to="/destinations">
+          <Button color="inherit" component={Link} to="/destinations">
             Destinations
           </Button>
-          <Button color="inherit" component={RouterLink} to="/trip-types">
+          <Button color="inherit" component={Link} to="/tripTypes">
             Trip Types
           </Button>
-          <Button color="inherit" component={RouterLink} to="/contact">
+          <Button color="inherit" component={Link} to="/contact">
             Contact Us
           </Button>
         </Box>

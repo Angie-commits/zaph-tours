@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Typography,
-  Card,
-  CardContent,
-  CardMedia,
-  Stack,
-} from "@mui/material";
+import { Typography, Card, CardContent, CardMedia, Stack } from "@mui/material";
 import type { TripType } from "../data/TripTypes";
 
 interface Props {

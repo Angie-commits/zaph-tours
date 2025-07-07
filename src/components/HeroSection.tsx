@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
     <Box
       sx={{
         height: "100vh",
-       backgroundImage: 'url("/images/pagge.jpg")',
+        backgroundImage: 'url("/images/pagge.jpg")',
         backgroundSize: "cover",
         backgroundPosition: "center",
         color: "black",

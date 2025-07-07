@@ -11,7 +11,7 @@ const TripTypePage: React.FC = () => {
       </Typography>
       <Grid container spacing={4}>
         {TripTypes.map((trip, index) => (
-          <Grid size={{xs: 12, sm:6, md:4}} key={index}>
+          <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
             <TripTypeCard Trip={trip} />
           </Grid>
         ))}

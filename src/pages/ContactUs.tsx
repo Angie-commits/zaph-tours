@@ -27,12 +27,12 @@ const ContactUs: React.FC = () => {
         </Typography>
 
         <Grid container spacing={4}>
-          <Grid size={{xs: 12, sm:6, md:4}}>
+          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
             <Typography variant="h6">Send us a message</Typography>
             <ContactForm />
           </Grid>
 
-          <Grid size={{xs: 12, sm:6, md:4}}>
+          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
             <Typography variant="h6" gutterBottom>
               Contact Information
             </Typography>
@@ -75,7 +75,7 @@ const ContactUs: React.FC = () => {
             </Box>
           </Grid>
 
-          <Grid size={{xs: 12, sm:6, md:4}}>
+          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
             <Typography variant="h6" gutterBottom>
               Our Location
             </Typography>
